@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html style="padding: 0px;">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Long Nguyen - A polyglot programmer</title>
+  </head>
+  <body style="padding: 0px;">
+    <!-- navbar -->
+
+      {% block content %}
+      {% endblock %}
+    <!-- scripts and styles -->
+    {% style "/css/bootstrap-theme.min.css" %}
+    {% style "/css/bootstrap.min.css" %}
+    {% style "/css/screen.css" %}
+     <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="//code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
+     <script src="/js/jribbble.js"></script>
+    <script src="/js/site-ck.js"></script>
+
+    {% script "/js/bootstrap.min.js" %}
+    <script type="text/javascript">
+      var context = "{{servlet-context}}";
+    </script>
+  </body>
+</html>
+

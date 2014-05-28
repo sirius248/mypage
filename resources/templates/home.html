@@ -1,0 +1,27 @@
+{% extends "templates/base.html" %}
+{% block content %}
+    <div class="nav">
+    <a href="index.html#hero" class="scroll">section one</a>
+    <a href="index.html#networks" class="scroll">section three</a>
+  </div>
+  <section id="hero">
+      <div class="hero-block">
+        <img class="img-circle" src="/img/meworking.jpg" width="200" height="200" class="mb-7 hero-image">
+        <p>Hello, This is Long Nguyen. I'm a Ruby developer, Python dabbler, and Clojure lover.<br/>
+        Ruby and Javascript are the weapon I employed to tackle day-to-day job.<br/>
+        I'm a product person with entrepreneur spirit. If you wanna talk my info is below. Thanks!</p>
+      </div>
+    <a href="index.html#networks" class="scroll"><span class="down-arrow"></span></a>
+  </section>
+
+
+  <section id="networks">
+    <div class="container">
+      <p>
+        <a href="https://www.facebook.com/Vangnol"><i class="facebook fa fa-facebook"></i></a><a href="https://twitter.com/vangnol"><i class="twitter fa fa-twitter"></i></a><a href="mailto:longn.polyglot@gmail.com"><i class="mail fa fa-envelope"></i></a>
+      </p>
+
+    </div>
+
+  </section>
+{% endblock %}
